@@ -1,0 +1,22 @@
+{
+  "name": "mean-study",
+  "version": "1.0.0",
+  "description": "first mean stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app" //added
+  },
+  "dependencies": { //dependencies for the app
+  	"express": "*", //back end part
+  	"mongoose": "*", //object document mapper
+  	"becryptjs": "*",
+  	"cors":"*", //make request from front end even it's diff port
+  	"jsonwebtoken":"*", //gen token for authentication
+  	"body-parser":"*",
+  	"passport":"*",
+  	"passport-jwt":"*"
+  },
+  "author": "RexSolus",
+  "license": "ISC"
+}
