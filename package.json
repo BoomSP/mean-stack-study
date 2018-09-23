@@ -5,14 +5,14 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app" //added
+    "start": "node app"
   },
-  "dependencies": { //dependencies for the app
-  	"express": "*", //back end part
-  	"mongoose": "*", //object document mapper
+  "dependencies": {
+  	"express": "*", 
+  	"mongoose": "*", 
   	"becryptjs": "*",
-  	"cors":"*", //make request from front end even it's diff port
-  	"jsonwebtoken":"*", //gen token for authentication
+  	"cors":"*",
+  	"jsonwebtoken":"*", 
   	"body-parser":"*",
   	"passport":"*",
   	"passport-jwt":"*"
